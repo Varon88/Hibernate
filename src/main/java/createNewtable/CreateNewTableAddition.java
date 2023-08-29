@@ -12,11 +12,12 @@ public class CreateNewTableAddition {
     public static void main(String[] args){
 
         teacher samsung = new teacher();
-        samsung.setId(0);
-        samsung.setTeacherName("asus");
+        samsung.setId(1);
+        samsung.setTeacherName("acer");
 
         Configuration configuration = new Configuration().configure().addAnnotatedClass(teacher.class);
-        StandardServiceRegistryBuilder =
+//        StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder();
+//        serviceRegistryBuilder.addProperties();
         SessionFactory sessionFactory = configuration.buildSessionFactory();
         Session session = sessionFactory.openSession();
 
@@ -26,8 +27,9 @@ public class CreateNewTableAddition {
 
         transaction.commit();
 
-//        String version = Version.getVersionString();
-//        System.out.println(version);
+//        <property name="hbm2ddl.auto">create</property> --> This property is used within the hibernate.cfg.xml file to specify the function that should be carried out within the database
+//                           --> in the above case since a table named teacher does not exist the table is created.
+//        property name="show_sql">true</property> --> used to show the sql script in the compiler, ex - Hibernate: insert into teacher (teacherName,id) values (?,?)
     }
 
 }
