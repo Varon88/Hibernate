@@ -1,0 +1,6 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¨¶×ü8”¥ùÍ¤1
+g
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8³¤ýÍ¤1
+N
+java:S1874",Remove this use of "save"; it is deprecated.(ð‘Ó—ùÿÿÿÿ8¢¥ùÍ¤1

@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İÛŞøÿÿÿÿ8ªŒ§ƒ¤1
+g
+java:S2095"EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8´Œ§ƒ¤1
+X	java:S125"<This block of commented-out lines of code should be removed.(¶Ã¿û8Å“ÑÍ¤1
+X	java:S125"<This block of commented-out lines of code should be removed.(ìóıë8¼Œ§ƒ¤1
+N
+java:S1874",Remove this use of "save"; it is deprecated.(–ùåûÿÿÿÿ8¼Œ§ƒ¤1
+T
+java:S1128"2Remove this unused import 'org.hibernate.Version'.(ó•ùÉùÿÿÿÿ8½Œ§ƒ¤1
+y
+java:S1128"WRemove this unused import 'org.hibernate.boot.registry.StandardServiceRegistryBuilder'.(ƒ©¡üøÿÿÿÿ8½Œ§ƒ¤1
+d
+java:S1128	"BRemove this unused import 'org.hibernate.service.ServiceRegistry'.(œ¿ßçüÿÿÿÿ8½Œ§ƒ¤1

@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(åü¡ğÿÿÿÿÿ8àÜäÒ¤1
+g
+java:S2095("EUse try-with-resources or close this "Session" in a "finally" clause.(´Ï‚‘ùÿÿÿÿ8ìÜäÒ¤1
+I
+java:S1874,",Remove this use of "save"; it is deprecated.(ÿ§Ò¤8õÜäÒ¤1
+I
+java:S1874-",Remove this use of "save"; it is deprecated.(´È®å8õÜäÒ¤1
+I
+java:S1874.",Remove this use of "save"; it is deprecated.(ŠÓ¤Ñ8õÜäÒ¤1
+N
+java:S1874/",Remove this use of "save"; it is deprecated.(²Ô© øÿÿÿÿ8„”êÒ¤1
+M
+java:S1128"+Remove this unused import 'java.util.List'.(Õë±Äøÿÿÿÿ8õÜäÒ¤1
