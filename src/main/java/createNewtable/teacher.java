@@ -13,7 +13,7 @@ public class teacher { //default table name would be teacher which is also the c
     private int id;
     @Column(name = "teacher_name") //this would change the column name.
     //@Transient --> can be used to exclude the addition of variables to the table.
-    private String teacherName;
+    private teacherName teacherName;
 
     public int getId() {
         return id;
@@ -23,11 +23,11 @@ public class teacher { //default table name would be teacher which is also the c
         this.id = id;
     }
 
-    public String getTeacherName() {
+    public createNewtable.teacherName getTeacherName() {
         return teacherName;
     }
 
-    public void setTeacherName(String teacherName) {
+    public void setTeacherName(createNewtable.teacherName teacherName) {
         this.teacherName = teacherName;
     }
 }

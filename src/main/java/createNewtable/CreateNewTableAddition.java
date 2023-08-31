@@ -13,7 +13,7 @@ public class CreateNewTableAddition {
 
         teacher samsung = new teacher();
         samsung.setId(1);
-        samsung.setTeacherName("acer");
+        //samsung.setTeacherName("acer");
 
         Configuration configuration = new Configuration().configure().addAnnotatedClass(teacher.class);
 //        StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder();
