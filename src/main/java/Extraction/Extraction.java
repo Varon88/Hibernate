@@ -10,7 +10,7 @@ public class Extraction {
     public static void main(String[] args){
 
 
-        student stu = new student();
+        student stu = null;
         Configuration configuration = new Configuration().configure().addAnnotatedClass(student.class);
         SessionFactory sessionFactory = configuration.buildSessionFactory();
         Session session = sessionFactory.openSession();
@@ -18,7 +18,7 @@ public class Extraction {
         Transaction transaction = session.beginTransaction();
 
         for(int i = 0; i <= 4; i++) {
-            stu = session.get(student.class, i);
+            stu = session.get(student.class, i); //get method is a method of session which extracts data.
             System.out.println(stu);
         }
 
